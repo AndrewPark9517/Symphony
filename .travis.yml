@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: kMpn1o1c4RWC30W3xOD4Q51jDdvX9bfoyoGrnfRALbXQM6vcRwbZWmCcZrjSinQLIQAY9p5nh61kS+bvDcmILrQnyLTL8tYsMwDBlyzWcbctCAeA6/HRMU4WUpfZIDvNvKfI3GnkkfM0z9fytKXws7IGzFT3X+fCy07a6bO18GMl0AaSF6QU86wtNl4B2DAwPpLrZaFv6SJM+TTANULXJvwvvQVzrZrRGsedQexjB/vLOvjyWdazIVkQpdxJLoln5s3rFt0qg8FmMh3S1e5av07lB4btmwek7XxZuXZNM3ajcWIrTdXmWLe8IkJw2ttbR2sUYAeiva0S0uFkF6rOPn1qb/4SR5GTvnUqa6/f7WXgC13DeAeDAL+Jx1oK/tmePcEg93XS7TUpDmFQ0cwyNxSChBJ06N8EyW8sUMDkCGQaAM1HpCNw8ksEAjYFVPg5JZrhLRxuWwTQ+xrlc3BE7QvJaWaW6iT4w74bwQ/m+bBqaq9K7CLPY+tA08IPIBB1nATSzEIY0oDsMVpq+FTYcVmJi5hac6WNcOE9ZnYhcSe4WJFGiqAXlKdRhJG1RT/sO19XMBbB3j1uGamRqR5G8pZdHL4onHnZtBwC9OhXq9k+O4rIwe5eI9kkbrh4Rs7bzrC3jdsiAECA/5VjN+2PXpSVHTej3V6dSuen+cjefHU=
+  app: fast-escarpment-54397
+  on:
+    repo: AndrewPark9517/Symphony
